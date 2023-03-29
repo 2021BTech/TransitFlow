@@ -1,0 +1,50 @@
+header {
+    height: 100px;
+    overflow: hidden;
+    background-color: var(--color-primary-varient);
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    gap: 200px;
+}
+
+.logo_header {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.logs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:20px;
+    color: var(--color-secondary);
+    margin: 10px;
+    padding: 10px;
+    font-size: 8px;
+}
+
+.header_logs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.icon_color {
+    color: var(--color-primary);
+    font-size: 10px;
+    border: 1px solid var(--color-gradient-two);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
