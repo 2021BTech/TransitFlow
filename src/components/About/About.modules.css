@@ -17,7 +17,7 @@
     margin: 10px;
 }
 
-h1 {
+.about_title {
     max-width: 300px;
     word-wrap: break-word;
     word-break: break-all;
@@ -26,12 +26,13 @@ h1 {
 
 .about_head {
     border: 1px solid var(--color-primary);
+    border-radius: 5px;
     background-color:  rgba(255, 255, 255,);
     margin: 15px;
     padding: 5px;
 }
 
-p {
+.para_about {
     word-wrap: break-word;
     word-break: break-all;
     max-width: 300px;
@@ -41,7 +42,7 @@ p {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    grid-template-rows: repeat(2, 1fr);
-   gap: 30px;
+   gap: 10px;
 }
 
 
@@ -51,7 +52,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .card-1 h3 {

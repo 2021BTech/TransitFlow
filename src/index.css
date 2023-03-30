@@ -76,7 +76,7 @@ section > h2 {
 }
 
 a {
-  color: var();
+  color: var(--color-secondary);
   transition: var(--transition);
 }
 a:hover{

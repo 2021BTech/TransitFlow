@@ -59,7 +59,7 @@
     line-height: normal;
 }
 
-p {
+.banner_para{
     word-wrap: break-word;
     word-break: break-all;
     max-width: 500px;
@@ -70,6 +70,7 @@ p {
     background-color:  rgba(255, 255, 255, 0.5);
     margin-right: 15px;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .btn {

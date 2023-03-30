@@ -50,7 +50,7 @@ const Banner = () => {
         <span className='span_banner'> Logistics and Supply Chain Solution </span>
         <br/>
         <h1 className='banner_head'>Your Gateway to any Destination in the World</h1>
-        <p>Egestas egestas fringilla phasellus faucibus scelerisque eleifend. 
+        <p className='banner_para'>Egestas egestas fringilla phasellus faucibus scelerisque eleifend. 
             Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. 
             Gravida rutrum quisque non tellus orci ac auctor.  </p>
         <button className="btn"> Explore More </button>
