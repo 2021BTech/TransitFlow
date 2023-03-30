@@ -37,10 +37,10 @@ const Banner = () => {
             <div className='req'>
               <button className='req'> Request Quote </button>
             </div>
-            <CiInstagram className='icon_d'/>
-            <CiFacebook className='icon_d'/>
-            <CiTwitter className='icon_d' />
             <CiLinkedin className='icon_d' />
+            <CiTwitter className='icon_d' />
+            <CiFacebook className='icon_d'/>
+            <CiInstagram className='icon_d'/>
         </div>
         </div>
       </nav>
@@ -48,7 +48,8 @@ const Banner = () => {
          
       <div className="banner-content">
         <span className='span_banner'> Logistics and Supply Chain Solution </span>
-        <h1>Your Gateway to any Destination in the World</h1>
+        <br/>
+        <h1 className='banner_head'>Your Gateway to any Destination in the World</h1>
         <p>Egestas egestas fringilla phasellus faucibus scelerisque eleifend. 
             Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. 
             Gravida rutrum quisque non tellus orci ac auctor.  </p>
