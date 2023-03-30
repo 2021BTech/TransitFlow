@@ -22,13 +22,13 @@ const Header = () => {
 
           <div className='header_logs'>
             <AiOutlineMail className='icon_color'/>
-            <p> Email </p>
+            <h4> Email </h4>
             <p> contact@logistic.com</p>
           </div>
 
           <div className='header_logs'>
             <BiPhoneCall className="icon_color" />
-            <p> Call Us</p>
+            <h4> Call Us</h4>
             <p> (000) 112-356-489 </p>
           </div>
         </div>
