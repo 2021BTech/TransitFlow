@@ -1,0 +1,33 @@
+.team_page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.team_page h4 {
+  font-size: 14px;
+  color: var(--color-primary);
+}
+
+.team_page h2 {
+  font-size: 38px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.team-section img {
+  width: auto;
+  height: auto;
+  margin: 0 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

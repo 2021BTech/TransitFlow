@@ -5,8 +5,8 @@ import { FaStar } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa"
 //img
 import AV1 from "../../assets/AV-1.png"
-import AV2 from "../../assets/AV-2.png"
-import AV3 from "../../assets/AV-3.png"
+//import AV2 from "../../assets/AV-2.png"
+//import AV3 from "../../assets/AV-3.png"
 
 const Testimony = () => {
   return (
@@ -41,7 +41,7 @@ const Testimony = () => {
       </div>
       <div className="card card_left">
       <div className='img_test'>
-        <img src={AV3} alt="Card-2" className="card-image" />
+        <img src={AV1} alt="Card-2" className="card-image" />
           <h4 className='text'>john Martin</h4>
           <span className='text'>Restoration Company</span>
       </div>

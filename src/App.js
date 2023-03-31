@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./components/Header/Header"
 import Banner from "./components/Banner/Banner"
 import About from "./components/About/About"
-import Services from "./components/Services/Services"
+// import Services from "./components/Services/Services"
 import Testimony from "./components/Testimonial/Testimony"
 import Why from "./components/Why/Why"
 import Team from "./components/Team/Team"
@@ -19,7 +19,7 @@ function App() {
       <Header /> 
       <Banner />
       <About />
-      <Services />
+      {/* <Services /> */}
       <Testimony />
       <Why />
       <Team />

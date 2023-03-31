@@ -1,24 +1,24 @@
-import React from 'react'
-import "./Services.modules.css"
+// import React from 'react'
+// import "./Services.modules.css"
 //img
-import Bg from "../../assets/Photo.png"
-import mid from "../../assets/blog-2.jpg"
-import min from "../../assets/service.png"
-import AV1 from "../../assets/service-1.png"
-import AV2 from "../../assets/service-2.png"
-import AV3 from "../../assets/service-3.png"
-import AV4 from "../../assets/service-4.png"
-import AV5 from "../../assets/service-5.png"
+// import Bg from "../../assets/Photo.png"
+// import mid from "../../assets/bl.jpg"
+// import min from "../../assets/service.png"
+// import AV1 from "../../assets/service-1.png"
+// import AV2 from "../../assets/service-2.png"
+// import AV3 from "../../assets/service-3.png"
+// import AV4 from "../../assets/service-4.png"
+// import AV5 from "../../assets/service-5.png"
 //icon
-import {AiOutlineDeliveredProcedure} from "react-icons/ai"
-import {FaRegMoneyBillAlt} from "react-icons/fa"
+// import {AiOutlineDeliveredProcedure} from "react-icons/ai"
+// import {FaRegMoneyBillAlt} from "react-icons/fa"
 
-const Services = () => {
-  return (
-    <div className='service_container'>
+// const Services = () => {
+//   return (
+//     <div className='service_container'>
    
 
-    {/* <div className='service_section'>
+    /* <div className='service_section'>
       <div className='img_top'></div>
       <div className='service_card'>
         <div className='service_card_container'>
@@ -61,9 +61,9 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div> */}
+    </div> */
     
-      <h3 className='title_service'> Transporting Accross the World </h3>
+      /* <h3 className='title_service'> Transporting Accross the World </h3>
       <div className='info_service'>
         <div className='img_bottom'></div>
         <div className='card_info'>
@@ -111,3 +111,30 @@ const Services = () => {
 }
 
 export default Services
+
+import React from 'react';
+import './Page.css';
+
+function Page() {
+  return (
+    <div className="page">
+      <img src="picture.jpg" alt="Picture" className="picture" />
+
+      <div className="card">
+        <div className="card-text">
+          <h2>Card Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lectus auctor lacus auctor, ac consectetur urna ultrices. Sed id interdum ipsum.</p>
+        </div>
+        <div className="card-image">
+          <img src="card-image.jpg" alt="Card Image" />
+        </div>
+      </div>
+
+      <footer className="footer">
+        <p>Footer Text</p>
+      </footer>
+    </div>
+  );
+}
+
+export default Page; */
